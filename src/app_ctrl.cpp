@@ -9,6 +9,8 @@ int setup_ctrl()
 
     StartFunction1Task(); // 开启function_dev_1线程
 
+    StartWS2812Task(); // 开启function_WS2812线程
+
     return 0;
 }
 

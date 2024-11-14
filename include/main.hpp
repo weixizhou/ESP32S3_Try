@@ -6,6 +6,7 @@
  * @Date: 2024-11-10 15:22:08
 */
 
+#include <FastLED.h>
 #include <Arduino.h>
 #include "Config.hpp"
 
@@ -49,6 +50,7 @@ int loop_home(); // 业务线程loop
 
 void StartFunction1Task(); // 创建StartFunction1Task线程
 
+void StartWS2812Task(); // 创建StartWS2812Task线程
 
 
 // 计算帧率  用法--> CALC_FPS("输出的提示信息");
